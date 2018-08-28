@@ -4,7 +4,7 @@ import SlideShow from '../components/SlideShow'
 import red from '../images/bg01.jpg'
 import blue from '../images/bg02.jpg'
 import green from '../images/bg03.jpg'
-import berlin from '../images/BrandenburgerTor2262699-ffffff.svg'
+import berlin from '../images/brandenburg-gate.svg'
 import '../css/styles.css'
 class IndexPage extends React.Component {
 
@@ -46,13 +46,18 @@ class IndexPage extends React.Component {
 
                 <footer id="footer">
                     <ul className="icons">
-                        <li><a href="https://twitter.com"><span className="label"><i class="fab fa-twitter"></i></span></a></li>
-                        <li><a href="mailto:webmaster@barriere.berlin?subject=barriere.berlin%20Homepage"><span className="label"><i class="far fa-envelope"></i></span></a></li>
+                        <li><a href="https://twitter.com/barriereberlin" title="Twitter BarriereBerlin"><span className="label"><i class="fab fa-twitter"></i></span></a></li>
+                        <li><a href="mailto:webmaster@barriere.berlin?subject=barriere.berlin%20Homepage" title="Email"><span className="label"><i class="far fa-envelope"></i></span></a></li>
                     </ul>
                     <ul className="copyright">
-                        <li>&copy; 2018</li><li><a href="http://barriere.berlin">barriere.berlin</a></li>
+                        <li>&copy; 2018</li><li><a href="http://barriere.berlin" title="barriere.berlin">barriere.berlin</a></li>
+                        <li>
+                            <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC 3.0 BY</a></div>
+                        </li>
                     </ul>
-                    <font color="#1cb495">MADE WITH </font> <font color="red">♥</font> <font color="#1cb495">IN BERLIN</font>
+                    <p id="p01">
+                        MADE WITH <font color="red">♥</font> IN BERLIN
+                    </p>
                 </footer>
                 <SlideShow
                     slideInterval={3000}
