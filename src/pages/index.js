@@ -50,7 +50,7 @@ class IndexPage extends React.Component {
                         <li><a href="mailto:webmaster@barriere.berlin?subject=barriere.berlin%20Homepage" title="Email"><span className="label"><i class="far fa-envelope"></i></span></a></li>
                     </ul>
                     <ul className="copyright">
-                        <li>&copy; 2018</li><li><a href="http://barriere.berlin" title="barriere.berlin">barriere.berlin</a></li>
+                        <li>&copy; 2018-2019</li><li><a href="http://barriere.berlin" title="barriere.berlin">barriere.berlin</a></li>
                         <li>
                             <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC 3.0 BY</a></div>
                         </li>
