@@ -1,4 +1,10 @@
 {
     "version": 2,
-    "alias": "barriere"
+    "alias": [
+        "barriere"
+    ],
+    "github": {
+        "enabled": false,
+        "autoAlias": false
+    }
 }
